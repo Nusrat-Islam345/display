@@ -24,6 +24,12 @@ width: 260px;}
 .box p{font-size: 20px;
     font-family: cursive;}
 
- @media screen and (max-width: 1300px;){
+ @media screen and (max-width: 1300px) {
 .card-area {grid-template-columns: repeat(4,1fr);}}
+
+ @media screen and (max-width: 1100px) {
+.card-area {grid-template-columns: repeat(3,1fr);}}
+
+ @media screen and (max-width: 900px) {
+.card-area {grid-template-columns: repeat(2,1fr);}}
     
